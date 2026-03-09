@@ -1,7 +1,9 @@
-n=1234455
-s=0
-while n>0:
-    d=n%10
-    s+=d
-    n//=10
+n = int(input())
+s = 0
+
+while n > 0:
+    d = n % 10
+    s = s + d
+    n = n // 10
+
 print(s)
